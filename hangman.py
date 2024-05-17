@@ -27,7 +27,7 @@ hangMan = 0
 
 def hangman(n, m):
   print('__________')
-  if (n >= 0 or m <= 2):
+  if (n > 0 or m <= 3):
     print('|        |\n' * (n - 1) + '|        |')
   if (m <= 2):
     print('|        O')
@@ -51,7 +51,6 @@ while lenOfString != lenOfNewList(newList) and numOfAttempt > 0:
   print("Word : ")
   if newWord in rnWord:
     countOfNewWordInrnWord = rnWord.count(newWord)
-    print(countOfNewWordInrnWord)
     for i, v in enumerate(rnWord):
       if countOfNewWordInrnWord >= 0 and newWord == v:
         newList.pop(i)

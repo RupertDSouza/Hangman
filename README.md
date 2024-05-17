@@ -87,7 +87,7 @@ python hangman.py
 
 ## Author
 
-This project was created as part of a test for 7EDGE.
+This project was created as part of a test for 7EDGE interview process.
 
 ---
 
